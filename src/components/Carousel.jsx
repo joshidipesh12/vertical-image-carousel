@@ -5,11 +5,12 @@ import images from "../data/images.json";
 function Carousel() {
   const [currIndex, setCurrIndex] = useState(0);
 
-  // const prevImage = () => setCurrIndex(currIndex - 1);
+  // const prevImage = () => setCurrIndex((p) => (p - 1) % images.length);
+
   const nextImage = () => setCurrIndex((p) => (p + 1) % images.length);
 
   useEffect(() => {
-    const imageTimeout = setInterval(nextImage, 7000);
+    let imageTimeout = setInterval(nextImage, 7000);
     return () => clearTimeout(imageTimeout);
   }, []);
 
@@ -18,10 +19,12 @@ function Carousel() {
       <div
         className="image-item"
         style={{
-          backgroundImage: `url("https://source.unsplash.com/1024x1024/?${images[currIndex].name}")`,
+          backgroundImage: `url("https://source.unsplash.com/512x512/?${images[currIndex].name}")`,
         }}
       >
-        <div className="image-cover"></div>
+        <div className="image-cover">
+          <button className="explore-button">EXPLORE</button>
+        </div>
       </div>
     </section>
   );
