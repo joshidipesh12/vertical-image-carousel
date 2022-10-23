@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/vertical-image-carousel/static/css/main.0a0276af.css",
-    "main.js": "/vertical-image-carousel/static/js/main.353c72a3.js",
-    "static/js/787.6277a39d.chunk.js": "/vertical-image-carousel/static/js/787.6277a39d.chunk.js",
-    "index.html": "/vertical-image-carousel/index.html",
-    "main.0a0276af.css.map": "/vertical-image-carousel/static/css/main.0a0276af.css.map",
-    "main.353c72a3.js.map": "/vertical-image-carousel/static/js/main.353c72a3.js.map",
-    "787.6277a39d.chunk.js.map": "/vertical-image-carousel/static/js/787.6277a39d.chunk.js.map"
+    "main.css": "/carousel/static/css/main.01a9dee6.css",
+    "main.js": "/carousel/static/js/main.ed7b7211.js",
+    "static/js/787.6277a39d.chunk.js": "/carousel/static/js/787.6277a39d.chunk.js",
+    "index.html": "/carousel/index.html",
+    "main.01a9dee6.css.map": "/carousel/static/css/main.01a9dee6.css.map",
+    "main.ed7b7211.js.map": "/carousel/static/js/main.ed7b7211.js.map",
+    "787.6277a39d.chunk.js.map": "/carousel/static/js/787.6277a39d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a0276af.css",
-    "static/js/main.353c72a3.js"
+    "static/css/main.01a9dee6.css",
+    "static/js/main.ed7b7211.js"
   ]
 }
