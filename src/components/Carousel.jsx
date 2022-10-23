@@ -23,9 +23,9 @@ function Carousel() {
     <motion.section initial={{ x: 0 }} className="carousel-container">
       <AnimatePresence mode="popLayout">
         <motion.div
-          initial={{ x: "100vw" }}
-          animate={{ x: "0vw" }}
-          exit={{ x: "-100vw" }}
+          initial={{ y: "100vh" }}
+          animate={{ y: "0vh" }}
+          exit={{ y: "-100vh" }}
           className="image-item"
           key={`${currIndex}_container`}
           style={{
@@ -44,7 +44,7 @@ function Carousel() {
             <motion.h4
               className="place-name"
               key={`${currIndex}_country`}
-              transition={{ delay: 1 }}
+              transition={{ delay: 0.8 }}
               {...textAnim}
             >
               {images[currIndex].name}

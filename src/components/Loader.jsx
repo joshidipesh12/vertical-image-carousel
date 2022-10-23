@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 const component = () => {
   return (
     <motion.header
-      initial={{ translateY: "0vh" }}
-      animate={{ translateY: "0vh" }}
-      exit={{ translateY: "-100vh" }}
+      initial={{ x: 0 }}
+      animate={{ x: 0 }}
+      exit={{ x: -200 }}
       key="loader"
       className="loader-container"
     >
